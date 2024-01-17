@@ -79,7 +79,7 @@ class Dev(Configuration):
         },
     ]
 
-    # WSGI_APPLICATION = 'weatherproject.wsgi.application'
+    WSGI_APPLICATION = 'weatherproject.wsgi.application'
 
 
     # Database
@@ -133,6 +133,8 @@ class Dev(Configuration):
     STATICFILES_DIRS = [
         os.path.join(BASE_DIR, "static")
     ]
+
+    STATICFILES_STORAGE = "whitenoise.storage.CompressedManisfestStaticFilesStorage"
 
     # Default primary key field type
     # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
