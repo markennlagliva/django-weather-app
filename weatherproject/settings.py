@@ -46,6 +46,7 @@ class Dev(Configuration):
         'weatherAPI',
         'widget_tweaks',
         'whitenoise',
+        'requests',
     ]
 
     MIDDLEWARE = [
@@ -79,7 +80,7 @@ class Dev(Configuration):
         },
     ]
 
-    # WSGI_APPLICATION = 'weatherproject.wsgi.application'
+    WSGI_APPLICATION = 'weatherproject.wsgi.application'
 
 
     # Database

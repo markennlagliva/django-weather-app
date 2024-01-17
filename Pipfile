@@ -10,6 +10,7 @@ django-configurations = "*"
 whitenoise = "*"
 python-dotenv = "*"
 django-widget-tweaks = "*"
+requests = "*"
 
 [dev-packages]
 
