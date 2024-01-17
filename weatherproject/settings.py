@@ -79,7 +79,7 @@ class Dev(Configuration):
         },
     ]
 
-    WSGI_APPLICATION = 'weatherproject.wsgi.application'
+    # WSGI_APPLICATION = 'weatherproject.wsgi.application'
 
 
     # Database
