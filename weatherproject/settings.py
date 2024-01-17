@@ -45,6 +45,7 @@ class Dev(Configuration):
 
         'weatherAPI',
         'widget_tweaks',
+        'whitenoise',
     ]
 
     MIDDLEWARE = [
