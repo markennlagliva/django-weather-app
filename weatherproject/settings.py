@@ -47,6 +47,7 @@ class Dev(Configuration):
         'widget_tweaks',
         'whitenoise',
         'requests',
+
     ]
 
     MIDDLEWARE = [
