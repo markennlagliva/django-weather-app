@@ -21,7 +21,7 @@ def weather(request):
                 # Do if-else statement
                 # 1. Return result (img status and gif background names)
                 # 2. For no result data, img with "no result!".
-                print(weather_main)
+                print(f'this is the weather value {weather_main}')
 
                 if weather_main == 'Clear':
                     img = 'clear-sky.png'
@@ -40,7 +40,7 @@ def weather(request):
                     img_bg = 'thunderstorm.gif'
                 elif weather_main == 'Snow':
                     img = 'snow.png'
-                    img_bg = 'snow.gif'
+                    img_bg = 'snowie.gif'
                 elif weather_main == 'Mist':
                     img = 'mist.png'
                     img_bg = 'mist.gif'
