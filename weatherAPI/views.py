@@ -40,7 +40,7 @@ def weather(request):
                     img_bg = 'thunderstorm.gif'
                 elif weather_main == 'Snow':
                     img = 'snow.png'
-                    img_bg = 'thunderstorm.gif'
+                    img_bg = 'snowie.gif'
                     
                 elif weather_main == 'Mist':
                     img = 'mist.png'
